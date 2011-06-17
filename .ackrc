@@ -3,6 +3,7 @@
 --type-add=js=.js.erb
 --type-add=css=.sass,.less,.scss
 --type-set=cucumber=.feature
+--type-set=groovy=.groovy,.gsp
 
 --ignore-dir=coverage
 --ignore-dir=doc
@@ -14,6 +15,8 @@
 --ignore-dir=uploads
 --ignore-dir=images
 --ignore-dir=build
+--ignore-dir=target
+--ignore-dir=cache
 
 --color
 --follow
